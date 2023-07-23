@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>AluraGeek </title>
+        <link href="estilos/reset.css" rel="stylesheet">
+        <link href="estilos/normalize.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
+        <!--Estilos letsgoooo-->
+        <link rel="stylesheet" href="estilos/style.css">
+        <!--header-->
+        <link rel="stylesheet" href="estilos/cabecera/cabecera.css">
+        <link rel="stylesheet" href="estilos/cabecera/cabecera-logo.css">
+        <link rel="stylesheet" href="estilos/cabecera/cabecera-boton.css">
+        <link rel="stylesheet" href="estilos/cabecera/cabecera-buscador.css">
+        <!--Footer-->
+        <link rel="stylesheet" href="estilos/footer/footer.css">
+        <link rel="stylesheet" href="estilos/footer/footer-contenido.css">
+        <link rel="stylesheet" href="estilos/footer/footer-lista.css">
+        <link rel="stylesheet" href="estilos/footer/footer-logo.css">
+        <link rel="stylesheet" href="estilos/footer/formulario.css">
+        <link rel="stylesheet" href="estilos/footer/formulario-titulo.css">
+        <link rel="stylesheet" href="estilos/footer/formulario-campo.css">
+        <link rel="stylesheet" href="estilos/footer/footer-texto.css">
+        <!--Nuevo producto estilos-->
+        <link rel="stylesheet" href="producto/estilos-formulario.css">
+        <link rel="stylesheet" href="producto/formulario-producto.css">
+        <link rel="stylesheet" href="producto/formulario-producto-titulo.css">
+        <link rel="stylesheet" href="producto/button.css">
+
+    </head>
+
+    <body>
+        <header class="cabecera container">
+            <a href="#" class="cabecera__logo--enlace"><img class="cabecera__logo" src="images/logo.svg" alt="Logo de AluraGeek"></a>
+            <a class="cabecera__boton cabecera__boton--administrador" href="login/login.html">Menú Administrador</a>
+            <div class="cabecera__buscador--imagen"><input class="cabecera__buscador" type="search"></div>    
+        </header>
+
+        <main>
+            <section class="formulario-producto container">
+                <form action=""></form>
+                    <fieldset>
+                        <h2 class="formulario-producto__titulo">Agregar nuevo producto</h2>
+                        <div class="input-container">
+                            <input type="text" id="enlaceproducto" class="input">
+                            <label for="enlaceproducto" class="input-label">URL de la imagen</label>
+                        </div>  
+                        <div class="input-container"> 
+                            <select name="categoria" id="categoria" placerholder="consolas" class="input input--select">Categoria
+                                <option value="consolas">Consolas</option>
+                                <option value="siversos">Diversos</option>
+                                <option value="starwars">Star Wars</option>
+                            </select>
+                            <label for="categoria" class="input-label">Categoria</label>
+                        </div>
+                        <div class="input-container">
+                            <input type="text" id="nombreproducto" class="input">
+                            <label for="nombreproducto" class="input-label">Nombre del producto</label>
+                        </div>
+                        <div class="input-container">
+                            <input type="text" id="precioproducto" class="input">
+                            <label for="precioproducto" class="input-label">Precio del producto</label>
+                        </div>
+                        <div class="input-container">
+                            <textarea name="descripcionproducto" id="descripcionproducto" cols="30" rows="10" class="input input--textarea"></textarea>
+                            <label for="descripcionproducto" class="input-label">Descripción del producto</label>
+                        </div>
+                        <input type="button" value="Agregar Producto" class="button">
+                    </fieldset>
+                </form>
+               
+            </section>
+
+        </main>
+
+        <footer class="footer container">
+            <div class="footer__contenido">
+                <img class="footer__logo" src="images/logo.svg" alt="Imagen de logo de AluraGeek">
+                <ul class="footer__lista">
+                    <li class="footer__lista--item">Quienes Somos</li>
+                    <li class="footer__lista--item">Politica de privacidad</li>
+                    <li class="footer__lista--item">Programa de fidelidad</li>
+                    <li class="footer__lista--item">Nuestra tiendas</li>
+                    <li class="footer__lista--item">Quiero ser franquiciado</li>
+                    <li class="footer__lista--item">Anunciece aqui</li>
+                </ul>
+                <fieldset class="formulario">
+                    <p class="formulario__titulo">Hable con nosotros</p>
+                    <form action="">
+                        <div class="formulario__campo">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre">
+                        </div>
+                        <label for="mensaje"></label>
+                        <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                        <input class="footer__boton" type="button" value="Enviar mensaje">
+                    </form>
+                </fieldset>
+            </div>
+            <p class="footer__texto">Desarrollado por Fabiana Pino<br>2023</p>
+
+        </footer>
+
+    </body>
+
+</html>

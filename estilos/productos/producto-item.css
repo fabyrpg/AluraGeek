@@ -1,0 +1,29 @@
+.productos__item{
+    list-style: none;
+    margin-bottom: 0.65rem;
+}
+
+.producto__item--imagen > img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.producto__item--nombre{
+    font-size: 1.1rem;
+    line-height: 1rem;
+    margin: 0;
+}
+
+.producto__item--precio{
+    font-weight: 700;
+}
+
+.producto__item--enlace{
+    text-decoration: none;
+    color: var(--azul-banner);
+    font-weight: 700;
+    padding: 0.8rem 1.5rem 0 0;
+}
+
+

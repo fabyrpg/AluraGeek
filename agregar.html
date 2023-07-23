@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Editar productos, AluraGeek!</title>
+        <link href="estilos/reset.css" rel="stylesheet">
+        <link href="estilos/normalize.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
+        <!--Estilos letsgoooo-->
+        <link rel="stylesheet" href="estilos/style.css">
+        <!--header-->
+        <link rel="stylesheet" href="estilos/cabecera/cabecera.css">
+        <link rel="stylesheet" href="estilos/cabecera/cabecera-logo.css">
+        <link rel="stylesheet" href="estilos/cabecera/cabecera-boton.css">
+        <link rel="stylesheet" href="estilos/cabecera/cabecera-buscador.css">
+        <!--Productos-->
+        <link rel="stylesheet" href="estilos/productos/productos.css">
+        <link rel="stylesheet" href="estilos/productos/productos-seccion.css">
+        <link rel="stylesheet" href="estilos/productos/productos-barra.css">
+        <link rel="stylesheet" href="estilos/productos/producto-titulo.css">
+        <link rel="stylesheet" href="estilos/productos/producto-enlace.css">
+        <link rel="stylesheet" href="estilos/productos/producto-orden.css">
+        <link rel="stylesheet" href="estilos/productos/productos-tarjeta.css">
+        <link rel="stylesheet" href="estilos/productos/producto-item.css">
+        <!--Footer-->
+        <link rel="stylesheet" href="estilos/footer/footer.css">
+        <link rel="stylesheet" href="estilos/footer/footer-contenido.css">
+        <link rel="stylesheet" href="estilos/footer/footer-lista.css">
+        <link rel="stylesheet" href="estilos/footer/footer-logo.css">
+        <link rel="stylesheet" href="estilos/footer/formulario.css">
+        <link rel="stylesheet" href="estilos/footer/formulario-titulo.css">
+        <link rel="stylesheet" href="estilos/footer/formulario-campo.css">
+        <link rel="stylesheet" href="estilos/footer/footer-texto.css">
+        <!--Estilos de esta pagina-->
+        <link rel="stylesheet" href="estilos/agregar-pagina/agregar-estilos.css">
+        
+    </head>
+
+    <body>
+        <header class="cabecera container">
+            <a href="#" class="cabecera__logo--enlace"><img class="cabecera__logo" src="images/logo.svg" alt="Logo de AluraGeek"></a>
+            <div class="cabecera__buscador--imagen"><input class="cabecera__buscador" type="search"></div>    
+        </header>
+
+        <main>
+            <section class="productos container">
+                <div class="productos__seccion">
+                    <div class="productos__barra--agregar">
+                            <h2 class="producto__titulo producto__titulo--agregar">Todos los productos</h2>
+                            <a class="producto__enlace producto__enlace--agregar" href="producto.html"><span>Agregar producto</span></a>
+                    </div>
+                    
+                    <div class="productos__orden">
+
+                        
+
+                        <ul class="productos__tarjeta">
+
+                            <div class="productos__tarjeta--edicion">
+                                <a href="#"><img class="producto__tarjeta--imagenes--edit" src="images/dust-bin.svg" alt="Icono para borrar"></a>
+                                <a href="#"><img class="producto__tarjeta--imagenes--edit" src="images/pencil-edit.svg" alt="Icono para editar"></a>
+                            </div>
+                            <li class="productos__item"><div class="producto__item--imagen"><img class="producto__item--imagen--crop" src="images/sw1.webp" alt="Imagen del primer producto"></div>   
+                            </li>
+
+                            
+
+                            <li class="productos__item"><p class="producto__item--nombre">Producto n+1</p></li>
+                            <li class="productos__item"><span class="producto__item--precio">$ 999,99$</span></li>
+                            <li class="productos__item"><a href="#" class="producto__item--enlace">Ver producto</a></li>
+                        </ul>
+                        
+                        <ul class="productos__tarjeta">
+
+                            <div class="productos__tarjeta--edicion">
+                                <a href="#"><img class="producto__tarjeta--imagenes--edit" src="images/dust-bin.svg" alt="Icono para borrar"></a>
+                                <a href="#"><img class="producto__tarjeta--imagenes--edit" src="images/pencil-edit.svg" alt="Icono para editar"></a>
+                            </div>
+
+                            <li class="productos__item"><div class="producto__item--imagen"><img class="producto__item--imagen--crop" src="images/sw3.webp" alt="Imagen del primer producto"></div></li>
+                            <li class="productos__item"><p class="producto__item--nombre">Producto n+1</p></li>
+                            <li class="productos__item"><span class="producto__item--precio">$ 324,99$</span></li>
+                            <li class="productos__item"><a href="#" class="producto__item--enlace">Ver producto</a></li>
+                        </ul>
+                        
+                        
+
+                </div>
+
+            </section>
+        </main>
+
+        <footer class="footer container">
+            <div class="footer__contenido">
+                <img class="footer__logo" src="images/logo.svg" alt="Imagen de logo de AluraGeek">
+                <ul class="footer__lista">
+                    <li class="footer__lista--item">Quienes Somos</li>
+                    <li class="footer__lista--item">Politica de privacidad</li>
+                    <li class="footer__lista--item">Programa de fidelidad</li>
+                    <li class="footer__lista--item">Nuestra tiendas</li>
+                    <li class="footer__lista--item">Quiero ser franquiciado</li>
+                    <li class="footer__lista--item">Anunciece aqui</li>
+                </ul>
+                <fieldset class="formulario">
+                    <p class="formulario__titulo">Hable con nosotros</p>
+                    <form action="">
+                        <div class="formulario__campo">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre">
+                        </div>
+                        <label for="mensaje"></label>
+                        <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                        <input class="footer__boton" type="button" value="Enviar mensaje">
+                    </form>
+                </fieldset>
+            </div>
+            <p class="footer__texto">Desarrollado por Fabiana Pino<br>2023</p>
+
+        </footer>
+    </body>
+
+</html>

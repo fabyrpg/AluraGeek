@@ -1,0 +1,16 @@
+.formulario__campo{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background-color: white;
+    color: #888888;
+    font-size: 1rem;
+    margin-bottom: 0.69rem;
+    height: 40px;
+    width: inherit;
+    box-shadow: 0px 3px 3px 0px rgba(122, 122, 122, 0.2);
+}
+
+.formulario__campo label{
+    font-size: 0.8rem;    
+}

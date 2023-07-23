@@ -1,0 +1,14 @@
+.cabecera__boton{
+    padding: 0.7rem 2.5rem;
+    text-decoration: none;
+    border: solid 1px var(--azul-banner);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: var(--azul-banner);
+}
+
+.cabecera__boton--administrador{
+    padding: 0.7rem 1rem;
+    font-size: 0.8rem;
+}

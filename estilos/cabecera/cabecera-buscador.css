@@ -1,0 +1,12 @@
+.cabecera__buscador{
+    width: 10%;
+    border: none;
+    height: 30px;
+}
+
+.cabecera__buscador--imagen{
+    width: 50px;
+    background-image: url(../../images/icon-search.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 50% right 30%;
+}

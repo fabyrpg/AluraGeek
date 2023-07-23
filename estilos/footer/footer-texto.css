@@ -1,0 +1,6 @@
+.footer__texto{
+    font-size: 0.7rem;
+    text-align: center;
+    color: var(--gris-fuente);
+    padding: 0.69rem 0;
+}

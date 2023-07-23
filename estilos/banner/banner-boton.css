@@ -1,0 +1,7 @@
+.banner__boton{
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    background-color: var(--azul-banner);
+    font-size: 0.8rem;
+    color: white;
+}

@@ -1,0 +1,12 @@
+.producto__enlace{
+    text-decoration: none;
+    color: var(--azul-banner);
+    font-weight: 700;
+}
+
+.producto__enlace--flechita{
+    width: 93px;
+    background-image: url(../../images/arrow.svg);
+    background-position: bottom 40% right;
+    background-repeat: no-repeat;
+}

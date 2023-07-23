@@ -1,0 +1,13 @@
+.banner{
+    padding: 4.2rem 0 1.699rem 0;
+ 
+    font-family: Raleway;
+    color: white;
+    background-image: linear-gradient(rgba(44, 41, 41, 0.2), rgba(34, 31, 31, 0.9)), url(../../images/banner.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+    /*background-image: linear-gradient(0, black), url(../../images/banner.webp);*/
+    
+}
